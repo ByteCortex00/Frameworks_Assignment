@@ -109,7 +109,7 @@ Get the dashboard running in 3 simple steps:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/CORD19_Analysis.git
+git clone https://github.com/ByteCortex00/Frameworks_Assignment.git
 cd CORD19_Analysis
 
 # 2. Install dependencies
@@ -121,7 +121,7 @@ streamlit run streamlit_app.py
 
 **📍 Then navigate to:** `http://localhost:8501`
 
-> **Note**: You'll need to download the dataset separately (see [Installation](#️-installation) section)
+**Note**: The dataset is already provided in the data folder but you can download the dataset separately (see [Installation](#️-installation) section)
 
 ---
 
@@ -150,22 +150,8 @@ CORD19_Analysis/
 │   ├── word_frequency.png
 │   ├── title_wordcloud.png
 │   └── abstract_length_distribution.png
-│
-├── 📁 images/                    # Documentation images
-│   ├── dashboard_preview.png
-│   └── analysis_examples/
-│
-├── 📁 notebooks/                 # Jupyter notebooks (optional)
-│   ├── exploratory_analysis.ipynb
-│   └── advanced_visualizations.ipynb
-│
-└── 📁 docs/                      # Additional documentation
-    ├── data_dictionary.md
-    ├── analysis_methodology.md
-    └── findings_summary.md
-```
+|   ├── source_distribution.png
 
----
 
 ## 🛠️ Installation
 
@@ -179,7 +165,7 @@ CORD19_Analysis/
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/CORD19_Analysis.git
+git clone https://github.com/ByteCortex00/Frameworks_Assignment.git
 cd CORD19_Analysis
 ```
 
@@ -289,30 +275,14 @@ jupyter notebook notebooks/exploratory_analysis.ipynb
 - **Responsive Design**: Mobile-friendly dashboard layout
 - **Export Options**: CSV download functionality for all filtered data
 
----
 
-## 📸 Screenshots
-
-### Dashboard Overview
-![Main Dashboard](images/dashboard_main.png)
-
-### Timeline Analysis
-![Timeline View](images/timeline_analysis.png)
-
-### Journal Analysis
-![Journal Rankings](images/journal_analysis.png)
-
-### Word Analysis
-![Word Frequency](images/word_analysis.png)
-
----
 
 ## 🔧 Technical Details
 
 ### **Data Processing Pipeline**
 
 1. **Data Ingestion**
-   - Load 500k+ research paper metadata
+   - Load 10000000 + research paper metadata
    - Handle various file encodings and formats
    - Memory-efficient chunk processing
 
@@ -358,7 +328,7 @@ The COVID-19 Open Research Dataset (CORD-19) is a comprehensive collection of sc
 
 | Attribute | Details |
 |-----------|---------|
-| **Size** | ~500,000 research papers |
+| **Size** | ~1000,000 research papers |
 | **Time Period** | 1900 - Present (focus on 2020-2022) |
 | **Sources** | PubMed, PMC, WHO, bioRxiv, medRxiv |
 | **File Size** | ~2GB (metadata only) |
@@ -386,7 +356,7 @@ The COVID-19 Open Research Dataset (CORD-19) is a comprehensive collection of sc
 
 ## 🤝 Contributing
 
-We welcome contributions to improve this analysis! Here's how you can help:
+I welcome contributions to improve this analysis! Here's how you can help:
 
 ### **Types of Contributions**
 
@@ -409,7 +379,7 @@ We welcome contributions to improve this analysis! Here's how you can help:
 
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/CORD19_Analysis.git
+git clone https://github.com/ByteCortex00/Frameworks_Assignment.git
 
 # Install development dependencies
 pip install -r requirements-dev.txt
@@ -451,12 +421,12 @@ The CORD-19 dataset is provided by the Allen Institute for AI under specific ter
 
 ## 👨‍💻 Author
 
-**[Your Name]**
+**Peter Waweru Njuguna**
 
-- 🐙 **GitHub**: [@yourusername](https://github.com/yourusername)
-- 💼 **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- 📧 **Email**: your.email@example.com
-- 🌐 **Portfolio**: [yourportfolio.com](https://yourportfolio.com)
+- 🐙 **GitHub**: [ByteCortex00](https://https://github.com/ByteCortex00)
+- 💼 **LinkedIn**: 
+- 📧 **Email**: njungush444@gmail.com
+- 🌐 **Portfolio**: [peternjuguna.netlify.app](https://peternjuguna.netlify.app/)
 
 ### **About This Project**
 
@@ -487,14 +457,9 @@ This project was developed as part of a data science learning journey, focusing 
 - **Plotly Community** - Interactive visualization techniques
 - **Pandas Community** - Data processing methodologies
 
-### **Educational Resources**
-- **Coursera Data Science Courses** - Foundational learning
-- **Stack Overflow Community** - Problem-solving support
-- **GitHub Open Source Projects** - Code structure inspiration
 
 ### **Special Thanks**
 - Course instructors and mentors for guidance
-- Fellow students for collaboration and feedback
 - Open source community for tools and libraries
 
 ---
@@ -504,8 +469,8 @@ This project was developed as part of a data science learning journey, focusing 
 ### **Getting Help**
 
 - 📖 **Documentation**: Check this README and inline code comments
-- 🐛 **Issues**: [Open a GitHub issue](https://github.com/yourusername/CORD19_Analysis/issues) for bugs or questions
-- 💬 **Discussions**: Use [GitHub Discussions](https://github.com/yourusername/CORD19_Analysis/discussions) for general questions
+- 🐛 **Issues**: [Open a GitHub issue](https://github.com/ByteCortex00/Frameworks_Assignment/issues) for bugs or questions
+- 💬 **Discussions**: Use [GitHub Discussions]for general questions
 - 📧 **Direct Contact**: Email for urgent issues or collaboration
 
 ### **Frequently Asked Questions**
@@ -545,9 +510,9 @@ A: Yes! Streamlit offers free hosting at [Streamlit Cloud](https://streamlit.io/
 
 **⭐ If you find this project helpful, please give it a star on GitHub!**
 
-**🔄 Found an issue or have a suggestion? We'd love to hear from you!**
+**🔄 Found an issue or have a suggestion? I'd love to hear from you!**
 
 ---
 
-*Last updated: December 2024*
+*Last updated: September 2025*
 *Version: 1.0.0*
