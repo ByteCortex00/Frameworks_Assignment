@@ -121,7 +121,7 @@ streamlit run streamlit_app.py
 
 **📍 Then navigate to:** `http://localhost:8501`
 
-**Note**: The dataset is already provided in the data folder but you can download the dataset separately (see [Installation](#️-installation) section)
+**Note**: Download the dataset separately (see [Installation](#️-installation) section)
 
 ---
 
